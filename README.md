@@ -7,7 +7,7 @@ I choose Kotlin programming language and 1.9.23
 
 Why did you pick this programming language?
 
-I choose this programming 
+I choose this programming because it is similar to java and I find it more interesting.
 
 How your programming language chosen handles: object-oriented programming, file ingestion, 
 conditional statements, assignment statements, loops, subprograms (functions/methods),
@@ -26,11 +26,14 @@ java.util.regex.Pattern : It is used for regular expression matching and data cl
 
 Answer the following questions (and provide a corresponding screen showing output answering them):
 What company (oem) has the highest average weight of the phone body?
+Benefon
 
 Was there any phones that were announced in one year and released in another? What are they? 
 Give me the oem and models.
 
 How many phones have only one feature sensor?
+64
 
 What year had the most phones launched in any year later than 1999? 
+2019
   

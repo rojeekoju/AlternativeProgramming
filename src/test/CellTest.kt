@@ -1,12 +1,21 @@
 import org.junit.Test
-import src.Cell
-import src.loadData
-import java.io.File
+import org.src.Cell
+
 import kotlin.test.assertEquals
 import kotlin.test.assertNull
 
-
+/**
+ * @author rosie
+ * Test class fo the cell data class.
+ */
 class CellTest {
+
+    /**
+     * Tests the fromMap function with valid data.
+     *
+     * Verifies that the Cell object is correctly created from the input data map
+     * with all fields populated correctly.
+     */
 
     @Test
     fun testFromMap_validData() {
@@ -38,6 +47,13 @@ class CellTest {
         assertEquals("Android 10", cell.platformOs)
     }
 
+    /**
+    * Tests the fromMap function with invalid data.
+    *
+    * Verifies that the Cell object is created with null values for fields
+    * that cannot be parsed from the input data map.
+    */
+
     @Test
     fun testFromMap_invalidData() {
         val data = mapOf(
@@ -60,6 +76,13 @@ class CellTest {
         assertNull(cell.featuresSensors)
         assertNull(cell.platformOs)
     }
+
+    /**
+     * Tests the fromMap function with partial data.
+     *
+     * Verifies that the Cell object is created with values for fields
+     * that can be parsed from the input data map and null for others.
+     */
 
     @Test
     fun testFromMap_partialData() {
