@@ -1,8 +1,8 @@
 package src;
 
-import org.src.Cell
-import org.src.calculateAverage
-import org.src.loadData
+import src.Cell
+import src.calculateAverage
+import src.loadData
 
 fun main() {
     val filePath = "cells.csv"

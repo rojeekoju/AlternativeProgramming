@@ -1,5 +1,5 @@
 import org.junit.Test
-import org.src.Cell
+import src.Cell
 
 import kotlin.test.assertEquals
 import kotlin.test.assertNull
